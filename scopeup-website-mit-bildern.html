@@ -1,0 +1,185 @@
+
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ScopeUP GmbH</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background: #f4f4f4;
+      color: #333;
+      line-height: 1.6;
+      scroll-behavior: smooth;
+    }
+    header {
+      background: linear-gradient(135deg, #0e4d92, #1e90ff);
+      color: #fff;
+      padding: 2rem 1rem;
+      text-align: center;
+      animation: fadeIn 2s ease-in-out;
+    }
+    header h1 {
+      font-size: 3rem;
+      margin-bottom: 0.5rem;
+    }
+    header p {
+      font-size: 1.3rem;
+    }
+    section {
+      padding: 3rem 2rem;
+      max-width: 1000px;
+      margin: auto;
+      animation: slideUp 1s ease-out;
+    }
+    h2 {
+      color: #0e4d92;
+      margin-bottom: 1rem;
+      text-align: center;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 1.5rem;
+    }
+    .card {
+      background: white;
+      padding: 1.5rem;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      transition: transform 0.3s;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    .card img {
+      width: 100%;
+      border-radius: 8px;
+      margin-bottom: 1rem;
+      max-height: 150px;
+      object-fit: cover;
+    }
+    .card:hover {
+      transform: translateY(-5px);
+    }
+    footer {
+      text-align: center;
+      padding: 2rem;
+      background: #0e4d92;
+      color: white;
+      margin-top: 3rem;
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; }
+      to { opacity: 1; }
+    }
+    @keyframes slideUp {
+      from { transform: translateY(40px); opacity: 0; }
+      to { transform: translateY(0); opacity: 1; }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>ScopeUP GmbH</h1>
+    <p>Modernität messbar machen. Arbeitgeber zukunftssicher gestalten.</p>
+  </header>
+
+  <section>
+    <h2>Werteversprechen</h2>
+    <div class="grid">
+      <div class="card">
+        <img src="https://source.unsplash.com/400x300/?teamwork" alt="Teamwork">
+        Steigerung der Arbeitgeberattraktivität
+      </div>
+      <div class="card">
+        <img src="https://source.unsplash.com/400x300/?data" alt="Datenanalyse">
+        Glaubwürdiges Employer Branding mit Benchmark-Daten
+      </div>
+      <div class="card">
+        <img src="https://source.unsplash.com/400x300/?modern-office" alt="Modernisierung">
+        Modernisierung von Strukturen & Prozessen
+      </div>
+      <div class="card">
+        <img src="https://source.unsplash.com/400x300/?young-professionals" alt="Junge Talente">
+        Personalgewinnung junger Talente
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Kundengruppen</h2>
+    <div class="grid">
+      <div class="card">
+        <img src="https://source.unsplash.com/400x300/?finance" alt="Finanzen">
+        Finanzbranche
+      </div>
+      <div class="card">
+        <img src="https://source.unsplash.com/400x300/?students" alt="Fachkräfte">
+        Jobsuchende & junge Fachkräfte
+      </div>
+      <div class="card">
+        <img src="https://source.unsplash.com/400x300/?job-search" alt="Jobbörsen">
+        Jobbörsen
+      </div>
+      <div class="card">
+        <img src="https://source.unsplash.com/400x300/?recruitment" alt="Personalvermittler">
+        Personalvermittler
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Hauptaktivitäten</h2>
+    <div class="grid">
+      <div class="card"><img src="https://source.unsplash.com/400x300/?rating" alt="Bewertung">Modernitätsbewertung von Unternehmen</div>
+      <div class="card"><img src="https://source.unsplash.com/400x300/?consulting" alt="Beratung">Beratung & Innovation</div>
+      <div class="card"><img src="https://source.unsplash.com/400x300/?analytics" alt="Daten">Ratingmodell & Benchmarking-Daten</div>
+      <div class="card"><img src="https://source.unsplash.com/400x300/?webinar" alt="Webinare">Workshops & Webinare</div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Kanäle & Kundenbeziehungen</h2>
+    <div class="grid">
+      <div class="card"><img src="https://source.unsplash.com/400x300/?technology" alt="Web">Web & Apps</div>
+      <div class="card"><img src="https://source.unsplash.com/400x300/?social-media" alt="Social Media">LinkedIn & Fachforen</div>
+      <div class="card"><img src="https://source.unsplash.com/400x300/?conference" alt="Messen">Fachmessen, Webinare, Fallstudien</div>
+      <div class="card"><img src="https://source.unsplash.com/400x300/?subscription" alt="Abo">Abo-Modelle & Score-Updates</div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Partner & Ressourcen</h2>
+    <div class="grid">
+      <div class="card"><img src="https://source.unsplash.com/400x300/?partnership" alt="Partner">Jobbörsen & Recruiting-Unternehmen</div>
+      <div class="card"><img src="https://source.unsplash.com/400x300/?university" alt="Uni">Bankverbände & Hochschulen</div>
+      <div class="card"><img src="https://source.unsplash.com/400x300/?technology-partner" alt="Tech">Technologiepartner</div>
+      <div class="card"><img src="https://source.unsplash.com/400x300/?team" alt="Netzwerk">IT, Beratungskompetenz & Netzwerk</div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Monetarisierung & Kosten</h2>
+    <div class="grid">
+      <div class="card">
+        <img src="https://source.unsplash.com/400x300/?money" alt="Einnahmen">
+        <strong>Einnahmen:</strong><br>Beratung, Abos, Lizenzierung, Provisionen
+      </div>
+      <div class="card">
+        <img src="https://source.unsplash.com/400x300/?expenses" alt="Kosten">
+        <strong>Kosten:</strong><br>Marketing, Personal, IT, Analyse, Marktforschung
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    &copy; 2025 ScopeUP GmbH – Zukunft gestalten.
+  </footer>
+
+</body>
+</html>
